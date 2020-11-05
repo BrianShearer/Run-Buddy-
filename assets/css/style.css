@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 body {
   /* more on this crazy alphanumerical value in a minute! */
@@ -36,4 +37,44 @@ header nav {
   margin: 0 30px;
   font-weight: lighter;
   font-size: 22px;
+}footer {
+  background: #fce138;
+  width: 100%;
+  padding: 40px 35px;
+}footer h2 {
+  display: inline;
+  color: #024e76;
+  font-size: 30px;
+  margin: 0;
+}footer div {
+  float: right;
+  line-height: 1.5;
+  text-align: right;
+}footer a {
+  color: #024e76;
+/* Hero Style Start */
+.hero {
+  background-image: url("C:\Users\rrckh\Documents\Runbuddy");
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+}
+/* Hero Style End */
+.hero-form {
+  ...
+  border: solid 3px #024e76;
+
+}section {
+  padding: 60px;
+  background-image: url("C:\Users\rrckh\Documents\Runbuddy");
+}
+.hero-form {
+  border: 3px solid #024e76;
+  background-color: #fce138;
+  padding: 20px;
+  width: 500px;
+  color: #024e76;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
 }
